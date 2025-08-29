@@ -1,0 +1,214 @@
+{
+  "_Type": "Page",
+  "_Name": "Main",
+
+  "ActionBar": {
+    "_Type": "Control.Type.ActionBar",
+    "_Name": "ActionBar2",
+    "Caption": "Gestão do Estoque Transitório",
+    "Styles": {
+      "Caption": "PageTitleSmall"
+    },
+    "Items": []
+  },
+
+  "Controls": [
+    {
+      "_Type": "Control.Type.SectionedTable",
+      "_Name": "SectionedTable0",
+
+      "FilterFeedbackBar": {
+        "_Type": "Control.Type.FilterFeedbackBar",
+        "ShowAllFilters": false
+      },
+
+      "Sections": [
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "SectionButtonTable0",
+          "Visible": true,
+          "EmptySection": { "FooterVisible": false },
+          "Separators": {
+            "TopSectionSeparator": false,
+            "BottomSectionSeparator": true,
+            "HeaderSeparator": true,
+            "FooterSeparator": true,
+            "ControlSeparator": true
+          },
+          "Layout": { "LayoutType": "Vertical", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnPreferencias",
+              "Title": "Preferências",
+              "Alignment": "Center",
+              "ButtonType": "Text",
+              "Semantic": "Tint",
+              "ImagePosition": "Leading",
+              "FullWidth": false,
+              "Visible": true,
+              "Enabled": true,
+              "Styles": { "Button": "SmallBlueButton" },
+              "OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+            }
+          ]
+        },
+
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "SectionButtonTable1",
+          "Visible": true,
+          "EmptySection": { "FooterVisible": false },
+          "Separators": {
+            "TopSectionSeparator": false,
+            "BottomSectionSeparator": true,
+            "HeaderSeparator": true,
+            "FooterSeparator": true,
+            "ControlSeparator": true
+          },
+          "Layout": { "LayoutType": "Vertical", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnEscanearProduto",
+              "Title": "Escanear Produto",
+              "Alignment": "Center",
+              "ButtonType": "Text",
+              "Semantic": "Tint",
+              "ImagePosition": "Leading",
+              "FullWidth": false,
+              "Visible": true,
+              "Enabled": true,
+              "Styles": { "Button": "SmallBlueButton" },
+              "OnPress": "/EstoqueTransitorio/Actions/NavToEscanearPacote.action"
+            }
+          ]
+        },
+
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "SectionButtonTable2",
+          "Visible": true,
+          "EmptySection": { "FooterVisible": false },
+          "Separators": {
+            "TopSectionSeparator": false,
+            "BottomSectionSeparator": true,
+            "HeaderSeparator": true,
+            "FooterSeparator": true,
+            "ControlSeparator": true
+          },
+          "Layout": { "LayoutType": "Vertical", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnEntradaKit",
+              "Title": "Entrada de Loja do KIT",
+              "Alignment": "Center",
+              "ButtonType": "Text",
+              "Semantic": "Tint",
+              "ImagePosition": "Leading",
+              "FullWidth": false,
+              "Visible": true,
+              "Enabled": true,
+              "Styles": { "Button": "SmallBlueButton" },
+              "OnPress": "/EstoqueTransitorio/Actions/NavToEscanearPacote.action"
+            }
+          ]
+        },
+
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "SectionButtonTable3",
+          "Visible": true,
+          "EmptySection": { "FooterVisible": false },
+          "Separators": {
+            "TopSectionSeparator": false,
+            "BottomSectionSeparator": true,
+            "HeaderSeparator": true,
+            "FooterSeparator": true,
+            "ControlSeparator": true
+          },
+          "Layout": { "LayoutType": "Vertical", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnEntradaSobra",
+              "Title": "Entrada de Sobra",
+              "Alignment": "Center",
+              "ButtonType": "Text",
+              "Semantic": "Tint",
+              "ImagePosition": "Leading",
+              "FullWidth": false,
+              "Visible": true,
+              "Enabled": true,
+              "Styles": { "Button": "SmallBlueButton" },
+              "OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+            }
+          ]
+        },
+
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "SectionButtonTable4",
+          "Visible": true,
+          "EmptySection": { "FooterVisible": false },
+          "Separators": {
+            "TopSectionSeparator": false,
+            "BottomSectionSeparator": true,
+            "HeaderSeparator": true,
+            "FooterSeparator": true,
+            "ControlSeparator": true
+          },
+          "Layout": { "LayoutType": "Vertical", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnTransferenciasOM",
+              "Title": "Transferências de OM",
+              "Alignment": "Center",
+              "ButtonType": "Text",
+              "Semantic": "Tint",
+              "ImagePosition": "Leading",
+              "FullWidth": false,
+              "Visible": true,
+              "Enabled": true,
+              "Styles": { "Button": "SmallBlueButton" },
+              "OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+            }
+          ]
+        },
+
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "SectionButtonTable5",
+          "Visible": true,
+          "EmptySection": { "FooterVisible": false },
+          "Separators": {
+            "TopSectionSeparator": false,
+            "BottomSectionSeparator": true,
+            "HeaderSeparator": true,
+            "FooterSeparator": true,
+            "ControlSeparator": true
+          },
+          "Layout": { "LayoutType": "Vertical", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnPendenciasRecebimento",
+              "Title": "Pendências Recebimento",
+              "Alignment": "Center",
+              "ButtonType": "Text",
+              "Semantic": "Tint",
+              "ImagePosition": "Leading",
+              "FullWidth": false,
+              "Visible": true,
+              "Enabled": true,
+              "Styles": { "Button": "SmallBlueButton" },
+              "OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

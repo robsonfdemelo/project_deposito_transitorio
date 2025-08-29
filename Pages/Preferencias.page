@@ -1,0 +1,105 @@
+{
+  "_Type": "Page",
+  "_Name": "Preferencias",
+  "Caption": "Preferências",
+  "PrefersLargeCaption": true,
+  "Controls": [
+    {
+      "_Type": "Control.Type.SectionedTable",
+      "_Name": "SectionedTable0",
+      "Sections": [
+        {
+          "_Type": "Section.Type.FormCell",
+          "_Name": "FormSection_Prefs",
+          "Controls": [
+            {
+              "_Type": "Control.Type.FormCell.ListPicker",
+              "_Name": "PickerCentro",
+              "Caption": "Centro:",
+              "AllowMultipleSelection": false,
+              "AllowEmptySelection": true,
+              "PickerItems": []
+            },
+            {
+              "_Type": "Control.Type.FormCell.ListPicker",
+              "_Name": "PickerCentroTrabalho",
+              "Caption": "Centro de trabalho:",
+              "AllowMultipleSelection": false,
+              "AllowEmptySelection": true,
+              "PickerItems": []
+            },
+            {
+              "_Type": "Control.Type.FormCell.ListPicker",
+              "_Name": "PickerDepositoMM",
+              "Caption": "Depósito MM:",
+              "AllowMultipleSelection": false,
+              "AllowEmptySelection": true,
+              "PickerItems": []
+            },
+            {
+              "_Type": "Control.Type.FormCell.ListPicker",
+              "_Name": "PickerDepositoWM",
+              "Caption": "Nº Depósito WM:",
+              "AllowMultipleSelection": false,
+              "AllowEmptySelection": true,
+              "PickerItems": []
+            },
+            {
+              "_Type": "Control.Type.FormCell.ListPicker",
+              "_Name": "PickerImpressora",
+              "Caption": "Impressora:",
+              "AllowMultipleSelection": false,
+              "AllowEmptySelection": true,
+              "PickerItems": []
+            }
+          ]
+        },
+          {
+  "_Type": "Section.Type.ButtonTable",
+  "_Name": "SectionButtonTable_Actions",
+  "Visible": true,
+  "EmptySection": {
+    "FooterVisible": false
+  },
+  "Separators": {
+    "TopSectionSeparator": false,
+    "BottomSectionSeparator": false,
+    "HeaderSeparator": false,
+    "FooterSeparator": false,
+    "ControlSeparator": false
+  },
+  "Buttons": [
+    {
+      "_Type": "ButtonTable.Type.Button",
+      "_Name": "BtnGravar",
+      "Title": "Gravar",
+      "Alignment": "Center",
+      "ButtonType": "Text",
+      "Visible": true,
+      "Enabled": true,
+      "Styles": {
+        "Button": "GreenButton"
+      }
+    },
+    {
+      "_Type": "ButtonTable.Type.Button",
+      "_Name": "BtnCancelar",
+      "Title": "Cancelar",
+      "Alignment": "Center",
+      "ButtonType": "Text",
+      "Visible": true,
+      "Enabled": true,
+      "Styles": {
+        "Button": "RedButton"
+      }
+    }
+  ],
+  "Layout": {
+    "LayoutType": "Horizontal",      
+    "HorizontalAlignment": "Center"
+  }
+}
+      ]
+    }
+  ]
+}
