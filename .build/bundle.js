@@ -43,6 +43,7 @@ let estoquetransitorio_actions_application_usermenupopover_action = __webpack_re
 let estoquetransitorio_actions_closemodalpage_cancel_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/CloseModalPage_Cancel.action */ "./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action")
 let estoquetransitorio_actions_closemodalpage_complete_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/CloseModalPage_Complete.action */ "./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Complete.action")
 let estoquetransitorio_actions_closepage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/ClosePage.action */ "./build.definitions/EstoqueTransitorio/Actions/ClosePage.action")
+let estoquetransitorio_actions_concordar_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Concordar.action */ "./build.definitions/EstoqueTransitorio/Actions/Concordar.action")
 let estoquetransitorio_actions_genericbannermessage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericBannerMessage.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericBannerMessage.action")
 let estoquetransitorio_actions_genericmessagebox_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericMessageBox.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericMessageBox.action")
 let estoquetransitorio_actions_genericnavigation_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericNavigation.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericNavigation.action")
@@ -51,8 +52,11 @@ let estoquetransitorio_actions_logging_loguploadfailure_action = __webpack_requi
 let estoquetransitorio_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action")
 let estoquetransitorio_actions_logging_uploadlog_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/UploadLog.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLog.action")
 let estoquetransitorio_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/UploadLogProgress.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action")
+let estoquetransitorio_actions_navtodadospacote1_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToDadosPacote1.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToDadosPacote1.action")
 let estoquetransitorio_actions_navtoescanearpacote_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToEscanearPacote.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToEscanearPacote.action")
 let estoquetransitorio_actions_navtopreferencias_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToPreferencias.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToPreferencias.action")
+let estoquetransitorio_actions_scanbarcode_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/ScanBarcode.action */ "./build.definitions/EstoqueTransitorio/Actions/ScanBarcode.action")
+let estoquetransitorio_actions_voltar_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Voltar.action */ "./build.definitions/EstoqueTransitorio/Actions/Voltar.action")
 let estoquetransitorio_globals_application_appdefinition_version_global = __webpack_require__(/*! ./EstoqueTransitorio/Globals/Application/AppDefinition_Version.global */ "./build.definitions/EstoqueTransitorio/Globals/Application/AppDefinition_Version.global")
 let estoquetransitorio_globals_application_applicationname_global = __webpack_require__(/*! ./EstoqueTransitorio/Globals/Application/ApplicationName.global */ "./build.definitions/EstoqueTransitorio/Globals/Application/ApplicationName.global")
 let estoquetransitorio_globals_application_supportemail_global = __webpack_require__(/*! ./EstoqueTransitorio/Globals/Application/SupportEmail.global */ "./build.definitions/EstoqueTransitorio/Globals/Application/SupportEmail.global")
@@ -62,6 +66,9 @@ let estoquetransitorio_jsconfig_json = __webpack_require__(/*! ./EstoqueTransito
 let estoquetransitorio_pages_application_about_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/Application/About.page */ "./build.definitions/EstoqueTransitorio/Pages/Application/About.page")
 let estoquetransitorio_pages_application_support_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/Application/Support.page */ "./build.definitions/EstoqueTransitorio/Pages/Application/Support.page")
 let estoquetransitorio_pages_application_useractivitylog_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/Application/UserActivityLog.page */ "./build.definitions/EstoqueTransitorio/Pages/Application/UserActivityLog.page")
+let estoquetransitorio_pages_dadospacote_dadospacote1_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/DadosPacote/DadosPacote1.page */ "./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote1.page")
+let estoquetransitorio_pages_dadospacote_dadospacote2_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/DadosPacote/DadosPacote2.page */ "./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote2.page")
+let estoquetransitorio_pages_dadospacote_dadospacote3_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/DadosPacote/DadosPacote3.page */ "./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote3.page")
 let estoquetransitorio_pages_escanearpacote_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/EscanearPacote.page */ "./build.definitions/EstoqueTransitorio/Pages/EscanearPacote.page")
 let estoquetransitorio_pages_main_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/Main.page */ "./build.definitions/EstoqueTransitorio/Pages/Main.page")
 let estoquetransitorio_pages_preferencias_page = __webpack_require__(/*! ./EstoqueTransitorio/Pages/Preferencias.page */ "./build.definitions/EstoqueTransitorio/Pages/Preferencias.page")
@@ -78,6 +85,8 @@ let estoquetransitorio_rules_logging_setuserloglevel_js = __webpack_require__(/*
 let estoquetransitorio_rules_logging_togglelogging_js = __webpack_require__(/*! ./EstoqueTransitorio/Rules/Logging/ToggleLogging.js */ "./build.definitions/EstoqueTransitorio/Rules/Logging/ToggleLogging.js")
 let estoquetransitorio_rules_logging_tracecategories_js = __webpack_require__(/*! ./EstoqueTransitorio/Rules/Logging/TraceCategories.js */ "./build.definitions/EstoqueTransitorio/Rules/Logging/TraceCategories.js")
 let estoquetransitorio_rules_logging_userlogsetting_js = __webpack_require__(/*! ./EstoqueTransitorio/Rules/Logging/UserLogSetting.js */ "./build.definitions/EstoqueTransitorio/Rules/Logging/UserLogSetting.js")
+let estoquetransitorio_rules_onscanfail_js = __webpack_require__(/*! ./EstoqueTransitorio/Rules/OnScanFail.js */ "./build.definitions/EstoqueTransitorio/Rules/OnScanFail.js")
+let estoquetransitorio_rules_onscansuccess_js = __webpack_require__(/*! ./EstoqueTransitorio/Rules/OnScanSuccess.js */ "./build.definitions/EstoqueTransitorio/Rules/OnScanSuccess.js")
 let estoquetransitorio_rules_service_initialize_js = __webpack_require__(/*! ./EstoqueTransitorio/Rules/Service/Initialize.js */ "./build.definitions/EstoqueTransitorio/Rules/Service/Initialize.js")
 let estoquetransitorio_styles_styles_css = __webpack_require__(/*! ./EstoqueTransitorio/Styles/Styles.css */ "./build.definitions/EstoqueTransitorio/Styles/Styles.css")
 let estoquetransitorio_styles_styles_json = __webpack_require__(/*! ./EstoqueTransitorio/Styles/Styles.json */ "./build.definitions/EstoqueTransitorio/Styles/Styles.json")
@@ -103,6 +112,7 @@ module.exports = {
 	estoquetransitorio_actions_closemodalpage_cancel_action : estoquetransitorio_actions_closemodalpage_cancel_action,
 	estoquetransitorio_actions_closemodalpage_complete_action : estoquetransitorio_actions_closemodalpage_complete_action,
 	estoquetransitorio_actions_closepage_action : estoquetransitorio_actions_closepage_action,
+	estoquetransitorio_actions_concordar_action : estoquetransitorio_actions_concordar_action,
 	estoquetransitorio_actions_genericbannermessage_action : estoquetransitorio_actions_genericbannermessage_action,
 	estoquetransitorio_actions_genericmessagebox_action : estoquetransitorio_actions_genericmessagebox_action,
 	estoquetransitorio_actions_genericnavigation_action : estoquetransitorio_actions_genericnavigation_action,
@@ -111,8 +121,11 @@ module.exports = {
 	estoquetransitorio_actions_logging_loguploadsuccessful_action : estoquetransitorio_actions_logging_loguploadsuccessful_action,
 	estoquetransitorio_actions_logging_uploadlog_action : estoquetransitorio_actions_logging_uploadlog_action,
 	estoquetransitorio_actions_logging_uploadlogprogress_action : estoquetransitorio_actions_logging_uploadlogprogress_action,
+	estoquetransitorio_actions_navtodadospacote1_action : estoquetransitorio_actions_navtodadospacote1_action,
 	estoquetransitorio_actions_navtoescanearpacote_action : estoquetransitorio_actions_navtoescanearpacote_action,
 	estoquetransitorio_actions_navtopreferencias_action : estoquetransitorio_actions_navtopreferencias_action,
+	estoquetransitorio_actions_scanbarcode_action : estoquetransitorio_actions_scanbarcode_action,
+	estoquetransitorio_actions_voltar_action : estoquetransitorio_actions_voltar_action,
 	estoquetransitorio_globals_application_appdefinition_version_global : estoquetransitorio_globals_application_appdefinition_version_global,
 	estoquetransitorio_globals_application_applicationname_global : estoquetransitorio_globals_application_applicationname_global,
 	estoquetransitorio_globals_application_supportemail_global : estoquetransitorio_globals_application_supportemail_global,
@@ -122,6 +135,9 @@ module.exports = {
 	estoquetransitorio_pages_application_about_page : estoquetransitorio_pages_application_about_page,
 	estoquetransitorio_pages_application_support_page : estoquetransitorio_pages_application_support_page,
 	estoquetransitorio_pages_application_useractivitylog_page : estoquetransitorio_pages_application_useractivitylog_page,
+	estoquetransitorio_pages_dadospacote_dadospacote1_page : estoquetransitorio_pages_dadospacote_dadospacote1_page,
+	estoquetransitorio_pages_dadospacote_dadospacote2_page : estoquetransitorio_pages_dadospacote_dadospacote2_page,
+	estoquetransitorio_pages_dadospacote_dadospacote3_page : estoquetransitorio_pages_dadospacote_dadospacote3_page,
 	estoquetransitorio_pages_escanearpacote_page : estoquetransitorio_pages_escanearpacote_page,
 	estoquetransitorio_pages_main_page : estoquetransitorio_pages_main_page,
 	estoquetransitorio_pages_preferencias_page : estoquetransitorio_pages_preferencias_page,
@@ -138,6 +154,8 @@ module.exports = {
 	estoquetransitorio_rules_logging_togglelogging_js : estoquetransitorio_rules_logging_togglelogging_js,
 	estoquetransitorio_rules_logging_tracecategories_js : estoquetransitorio_rules_logging_tracecategories_js,
 	estoquetransitorio_rules_logging_userlogsetting_js : estoquetransitorio_rules_logging_userlogsetting_js,
+	estoquetransitorio_rules_onscanfail_js : estoquetransitorio_rules_onscanfail_js,
+	estoquetransitorio_rules_onscansuccess_js : estoquetransitorio_rules_onscansuccess_js,
 	estoquetransitorio_rules_service_initialize_js : estoquetransitorio_rules_service_initialize_js,
 	estoquetransitorio_styles_styles_css : estoquetransitorio_styles_styles_css,
 	estoquetransitorio_styles_styles_json : estoquetransitorio_styles_styles_json,
@@ -672,6 +690,49 @@ function UserLogSetting(clientAPI) {
 
 /***/ }),
 
+/***/ "./build.definitions/EstoqueTransitorio/Rules/OnScanFail.js":
+/*!******************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Rules/OnScanFail.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ OnScanFail)
+/* harmony export */ });
+function OnScanFail(clientAPI) {
+  return clientAPI.executeAction({
+    "_Type": "Action.Type.Message",
+    "Message": "Falha ao escanear o código"
+  });
+}
+
+/***/ }),
+
+/***/ "./build.definitions/EstoqueTransitorio/Rules/OnScanSuccess.js":
+/*!*********************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Rules/OnScanSuccess.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ OnScanSuccess)
+/* harmony export */ });
+function OnScanSuccess(clientAPI) {
+  const res = clientAPI.getActionResult("OpenBarcodeScanner").data;
+  const codigo = res && res.text ? res.text : res;
+  return clientAPI.executeAction({
+    "_Type": "Action.Type.Control.SetValue",
+    "Target": "#Page:EscanearPacote/#Control:FormCellSimpleProperty0",
+    "Value": codigo
+  }).then(() => clientAPI.executeAction("Actions/NavToDadosPacote1.action"));
+}
+
+/***/ }),
+
 /***/ "./build.definitions/EstoqueTransitorio/Rules/Service/Initialize.js":
 /*!**************************************************************************!*\
   !*** ./build.definitions/EstoqueTransitorio/Rules/Service/Initialize.js ***!
@@ -700,22 +761,17 @@ var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOUR
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.PageTitleSmall {
   font-size: 12px;
-  /* bem menor */
   font-weight: 400;
   text-align: center;
   white-space: normal;
-  /* deixa quebrar em duas linhas */
   line-height: 16px;
-  /* reduz espaçamento */
 }
-/* Botão azul pequeno, com largura fixa para todos ficarem iguais */
 .SmallBlueButton {
   background-color: #0d6efd;
   color: #fff;
   border-radius: 8px;
   padding: 10px 16px;
   width: 260px;
-  /* mesma largura para todos */
   text-align: center;
   font-weight: 600;
 }
@@ -739,7 +795,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.PageTitleSmall {
   border-radius: 5px;
   text-align: center;
 }
-`, "",{"version":3,"sources":["webpack://./build.definitions/EstoqueTransitorio/Styles/Styles.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,cAAc;EACd,gBAAgB;EAChB,kBAAkB;EAClB,mBAAmB;EACnB,iCAAiC;EACjC,iBAAiB;EACjB,sBAAsB;AACxB;AACA,mEAAmE;AACnE;EACE,yBAAyB;EACzB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;EACZ,6BAA6B;EAC7B,kBAAkB;EAClB,gBAAgB;AAClB;AACA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB;AACA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB","sourcesContent":[".PageTitleSmall {\n  font-size: 12px;\n  /* bem menor */\n  font-weight: 400;\n  text-align: center;\n  white-space: normal;\n  /* deixa quebrar em duas linhas */\n  line-height: 16px;\n  /* reduz espaçamento */\n}\n/* Botão azul pequeno, com largura fixa para todos ficarem iguais */\n.SmallBlueButton {\n  background-color: #0d6efd;\n  color: #fff;\n  border-radius: 8px;\n  padding: 10px 16px;\n  width: 260px;\n  /* mesma largura para todos */\n  text-align: center;\n  font-weight: 600;\n}\n.GreenButton {\n  background-color: #28a745;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n.RedButton {\n  background-color: #dc3545;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./build.definitions/EstoqueTransitorio/Styles/Styles.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,mBAAmB;EACnB,iBAAiB;AACnB;AACA;EACE,yBAAyB;EACzB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;AAClB;AACA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB;AACA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB","sourcesContent":[".PageTitleSmall {\n  font-size: 12px;\n  font-weight: 400;\n  text-align: center;\n  white-space: normal;\n  line-height: 16px;\n}\n.SmallBlueButton {\n  background-color: #0d6efd;\n  color: #fff;\n  border-radius: 8px;\n  padding: 10px 16px;\n  width: 260px;\n  text-align: center;\n  font-weight: 600;\n}\n.GreenButton {\n  background-color: #28a745;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n.RedButton {\n  background-color: #dc3545;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -758,20 +814,19 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../c
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.PageTitleSmall {
-  font-size: 12px;        /* bem menor */
+  font-size: 12px;       
   font-weight: 400;
   text-align: center;
-  white-space: normal;    /* deixa quebrar em duas linhas */
-  line-height: 16px;      /* reduz espaçamento */
+  white-space: normal;    
+  line-height: 16px;      
 }
 
-/* Botão azul pequeno, com largura fixa para todos ficarem iguais */
 .SmallBlueButton {
   background-color: #0d6efd;
   color: #fff;
   border-radius: 8px;
   padding: 10px 16px;
-  width: 260px;         /* mesma largura para todos */
+  width: 260px;         
   text-align: center;
   font-weight: 600;
 }
@@ -796,7 +851,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.PageTitleSmall {
   border-radius: 5px;
   text-align: center;
 }
-`, "",{"version":3,"sources":["webpack://./build.definitions/EstoqueTransitorio/Styles/Styles.less"],"names":[],"mappings":"AAAA;EACE,eAAe,SAAS,cAAc;EACtC,gBAAgB;EAChB,kBAAkB;EAClB,mBAAmB,KAAK,iCAAiC;EACzD,iBAAiB,OAAO,sBAAsB;AAChD;;AAEA,mEAAmE;AACnE;EACE,yBAAyB;EACzB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,YAAY,UAAU,6BAA6B;EACnD,kBAAkB;EAClB,gBAAgB;AAClB;AACA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB","sourcesContent":[".PageTitleSmall {\n  font-size: 12px;        /* bem menor */\n  font-weight: 400;\n  text-align: center;\n  white-space: normal;    /* deixa quebrar em duas linhas */\n  line-height: 16px;      /* reduz espaçamento */\n}\n\n/* Botão azul pequeno, com largura fixa para todos ficarem iguais */\n.SmallBlueButton {\n  background-color: #0d6efd;\n  color: #fff;\n  border-radius: 8px;\n  padding: 10px 16px;\n  width: 260px;         /* mesma largura para todos */\n  text-align: center;\n  font-weight: 600;\n}\n.GreenButton {\n  background-color: #28a745;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n\n.RedButton {\n  background-color: #dc3545;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./build.definitions/EstoqueTransitorio/Styles/Styles.less"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,yBAAyB;EACzB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;AAClB;AACA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,iBAAiB;EACjB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;AACpB","sourcesContent":[".PageTitleSmall {\n  font-size: 12px;       \n  font-weight: 400;\n  text-align: center;\n  white-space: normal;    \n  line-height: 16px;      \n}\n\n.SmallBlueButton {\n  background-color: #0d6efd;\n  color: #fff;\n  border-radius: 8px;\n  padding: 10px 16px;\n  width: 260px;         \n  text-align: center;\n  font-weight: 600;\n}\n.GreenButton {\n  background-color: #28a745;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n\n.RedButton {\n  background-color: #dc3545;\n  color: white;\n  font-weight: bold;\n  font-size: 14px;\n  min-width: 120px;\n  height: 40px;\n  border-radius: 5px;\n  text-align: center;\n}\n"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -1008,13 +1063,43 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":true,"_Type
 
 /***/ }),
 
+/***/ "./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote1.page":
+/*!**********************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote1.page ***!
+  \**********************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Page","_Name":"DadosPacote1","ActionBar":{"_Type":"Control.Type.ActionBar","_Name":"AB1","Caption":"Dados do pacote","Items":[]},"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"ST1","Sections":[{"_Type":"Section.Type.StaticText","_Name":"S1Tit","Text":"Atenção","Style":"TituloPerigo"},{"_Type":"Section.Type.StaticText","_Name":"S1Txt","Text":"Neste pacote há materiais de 03 ordens de manutenção. Favor separar os materiais.\n\nSerá impressa uma etiqueta por material.","Style":"TextoCentro"},{"_Type":"Section.Type.ButtonTable","_Name":"S1Btns","Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"Btn1Next","Title":"Concordar","ButtonType":"Text","OnPress":"Actions/NavToDadosPacote2.action"},{"_Type":"ButtonTable.Type.Button","_Name":"Btn1Back","Title":"Voltar","ButtonType":"Text","OnPress":"Actions/Voltar.action"}],"Layout":{"LayoutType":"Horizontal","HorizontalAlignment":"Center"}}]}]}
+
+/***/ }),
+
+/***/ "./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote2.page":
+/*!**********************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote2.page ***!
+  \**********************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Page","_Name":"DadosPacote2","ActionBar":{"_Type":"Control.Type.ActionBar","_Name":"AB2","Caption":"Dados do pacote (1/3)","Items":[]},"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"ST2","Sections":[{"_Type":"Section.Type.FormCell","_Name":"SecTexto","Controls":[{"_Type":"Control.Type.FormCell.Note","_Name":"Hdr","Text":"Ordem: 202506075542 (Manutenção de conversor)\nEquipamento: CONV-01-100","Style":"TextoCentro_Note"},{"_Type":"Control.Type.FormCell.Note","_Name":"TabelaMock","Text":"Material    Qte    Pto Desc.\n151001      5      Recepção\n151002      1      Recepção","Style":"TextoCentro_Note"}]},{"_Type":"Section.Type.ButtonTable","_Name":"S2BtnsRow1","Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"BtnReceber","Title":"Receber","ButtonType":"Text","OnPress":"Actions/Receber.action"},{"_Type":"ButtonTable.Type.Button","_Name":"BtnSomenteImprimir","Title":"Somente imprimir","ButtonType":"Text","OnPress":"Actions/SomenteImprimir.action"}],"Layout":{"LayoutType":"Horizontal","HorizontalAlignment":"Center"}},{"_Type":"Section.Type.ButtonTable","_Name":"S2BtnsRow2","Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"BtnVoltar","Title":"Voltar","ButtonType":"Text","OnPress":"Actions/Voltar.action"},{"_Type":"ButtonTable.Type.Button","_Name":"BtnProximaOM","Title":"Próxima OM","ButtonType":"Text","OnPress":"Actions/ProximaOM.action"}],"Layout":{"LayoutType":"Horizontal","HorizontalAlignment":"Center"}}]}]}
+
+/***/ }),
+
+/***/ "./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote3.page":
+/*!**********************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Pages/DadosPacote/DadosPacote3.page ***!
+  \**********************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Page","_Name":"DadosPacote3","ActionBar":{"_Type":"Control.Type.ActionBar","_Name":"AB3","Caption":"Dados do pacote","Items":[]},"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"ST3","Sections":[{"_Type":"Section.Type.FormCell","_Name":"SecTexto","Controls":[{"_Type":"Control.Type.FormCell.Note","_Name":"NoteTitulo","Text":"Recebimento concluído","Style":"TituloSucesso_Note"},{"_Type":"Control.Type.FormCell.Note","_Name":"NoteDesc","Text":"Materiais recebidos com sucesso pelo posto de estoque transitório.","Style":"TextoCentro_Note"}]},{"_Type":"Section.Type.ButtonTable","_Name":"S3Btns","Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"Btn3Back","Title":"Voltar","ButtonType":"Text","OnPress":"Actions/Voltar.action"}],"Layout":{"LayoutType":"Horizontal","HorizontalAlignment":"Center"}}]}]}
+
+/***/ }),
+
 /***/ "./build.definitions/EstoqueTransitorio/Pages/EscanearPacote.page":
 /*!************************************************************************!*\
   !*** ./build.definitions/EstoqueTransitorio/Pages/EscanearPacote.page ***!
   \************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"_Type":"Page","_Name":"EscanearPacote","Controls":[{"_Name":"SectionedTable0","_Type":"Control.Type.SectionedTable"}]}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":true,"Separator":true,"Caption":"Código do Pacote","PlaceHolder":"Escaneie ou digite","Enabled":true,"IsEditable":true,"AccessoryType":"Scan","OnAccessoryButtonPress":"Actions/ScanBarcode.action"},{"_Type":"Control.Type.FormCell.Button","_Name":"CameraScan","Text":"Escanear","OnPress":"Actions/ScanBarcode.action"}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"EscanearPacote","ActionBar":{"Items":[],"_Name":"ActionBar2","_Type":"Control.Type.ActionBar","Caption":"Escanear Pacote"}}
 
 /***/ }),
 
@@ -1034,7 +1119,7 @@ module.exports = {"_Type":"Page","_Name":"Main","ActionBar":{"_Type":"Control.Ty
   \**********************************************************************/
 /***/ ((module) => {
 
-module.exports = {"_Type":"Page","_Name":"Preferencias","Caption":"Preferências","PrefersLargeCaption":true,"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"_Type":"Section.Type.FormCell","_Name":"FormSection_Prefs","Controls":[{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerCentro","Caption":"Centro:","AllowMultipleSelection":false,"AllowEmptySelection":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerCentroTrabalho","Caption":"Centro de trabalho:","AllowMultipleSelection":false,"AllowEmptySelection":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerDepositoMM","Caption":"Depósito MM:","AllowMultipleSelection":false,"AllowEmptySelection":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerDepositoWM","Caption":"Nº Depósito WM:","AllowMultipleSelection":false,"AllowEmptySelection":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerImpressora","Caption":"Impressora:","AllowMultipleSelection":false,"AllowEmptySelection":true,"PickerItems":[]}]},{"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable_Actions","Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":false,"HeaderSeparator":false,"FooterSeparator":false,"ControlSeparator":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"BtnGravar","Title":"Gravar","Alignment":"Center","ButtonType":"Text","Visible":true,"Enabled":true,"Styles":{"Button":"GreenButton"}},{"_Type":"ButtonTable.Type.Button","_Name":"BtnCancelar","Title":"Cancelar","Alignment":"Center","ButtonType":"Text","Visible":true,"Enabled":true,"Styles":{"Button":"RedButton"}}],"Layout":{"LayoutType":"Horizontal","HorizontalAlignment":"Center"}}]}]}
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Controls":[{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerCentro","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Centro:","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerCentroTrabalho","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Centro de trabalho:","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerDepositoMM","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Depósito MM:","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerDepositoWM","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Nº Depósito WM:","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"PickerItems":[]},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"PickerImpressora","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Impressora:","IsSelectedSectionEnabled":false,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"PickerItems":[]}],"Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.FormCell","_Name":"FormSection_Prefs"},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":false,"HeaderSeparator":false,"FooterSeparator":false,"ControlSeparator":false},"Layout":{"LayoutType":"Horizontal","HorizontalAlignment":"Center"},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable_Actions","Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"Styles":{"Button":"GreenButton"},"_Type":"ButtonTable.Type.Button","_Name":"BtnGravar","Title":"Gravar","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true},{"Styles":{"Button":"RedButton"},"_Type":"ButtonTable.Type.Button","_Name":"BtnCancelar","Title":"Cancelar","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true}]}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"Preferencias","ActionBar":{"Items":[],"_Name":"ActionBar1","_Type":"Control.Type.ActionBar"}}
 
 /***/ }),
 
@@ -1198,6 +1283,16 @@ module.exports = {"_Type":"Action.Type.ClosePage"}
 
 /***/ }),
 
+/***/ "./build.definitions/EstoqueTransitorio/Actions/Concordar.action":
+/*!***********************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Actions/Concordar.action ***!
+  \***********************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Message","Message":"Concordado. (avance para a próxima etapa aqui)"}
+
+/***/ }),
+
 /***/ "./build.definitions/EstoqueTransitorio/Actions/GenericBannerMessage.action":
 /*!**********************************************************************************!*\
   !*** ./build.definitions/EstoqueTransitorio/Actions/GenericBannerMessage.action ***!
@@ -1278,6 +1373,16 @@ module.exports = {"Animated":true,"CompletionMessage":"Logs Uploaded","Completio
 
 /***/ }),
 
+/***/ "./build.definitions/EstoqueTransitorio/Actions/NavToDadosPacote1.action":
+/*!*******************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Actions/NavToDadosPacote1.action ***!
+  \*******************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"Pages/Application/DadosPacote/DadosPacote1.page","NavType":"Push"}
+
+/***/ }),
+
 /***/ "./build.definitions/EstoqueTransitorio/Actions/NavToEscanearPacote.action":
 /*!*********************************************************************************!*\
   !*** ./build.definitions/EstoqueTransitorio/Actions/NavToEscanearPacote.action ***!
@@ -1295,6 +1400,26 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToPreferencias"},"PageToOpen":"/EstoqueTransitorio/Pages/Preferencias.page"}
+
+/***/ }),
+
+/***/ "./build.definitions/EstoqueTransitorio/Actions/ScanBarcode.action":
+/*!*************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Actions/ScanBarcode.action ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.OpenBarcodeScanner","IsModal":true,"OnSuccess":"Rules/OnScanSuccess.js","OnFailure":"Rules/OnScanFail.js"}
+
+/***/ }),
+
+/***/ "./build.definitions/EstoqueTransitorio/Actions/Voltar.action":
+/*!********************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/Actions/Voltar.action ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"Pages/Application/EscanearPacote.page","NavType":"Push"}
 
 /***/ }),
 
