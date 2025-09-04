@@ -28,13 +28,13 @@
 		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/4023404e-5193-4226-a957-67909d4fe32b/space/9e0caa98-28ee-4a8d-b625-232fc3ebc180",
 		"AppId": "mdk-pet-lite",
 		"Destination": [
-			""
+			"Northwind"
 		]
 	},
 	"Onboarding": {
 		"Schema": "sapmobilesvcs",
 		"TimeZone": "UTC",
-		"URL": "sapmobilesvcs://?AppId=mdk-pet-lite&ClientId=&SapCloudPlatformEndpoint=https://a2b16583trial-dev-mdk-pet-lite.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=&RedirectUrl=&TokenUrl="
+		"URL": "sapmobilesvcs://?AppId=mdk-pet-lite&ClientId=&ServerUrl=https://a2b16583trial-dev-mdk-pet-lite.cfapps.us10-001.hana.ondemand.com&SapCloudPlatformEndpoint=https://a2b16583trial-dev-mdk-pet-lite.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=&RedirectUrl=&TokenUrl=&multiUser=false"
 	},
 	"LCAP": {
 		"FullName": "",
