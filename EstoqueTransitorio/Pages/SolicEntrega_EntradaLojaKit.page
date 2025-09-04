@@ -1,0 +1,70 @@
+{
+   "_Type":"Page",
+   "_Name":"SolicEntrega_EntradaLojaKit",
+   "Caption":"Solicitação de entrega",
+   "ActionBar":{
+      "_Type":"Control.Type.ActionBar",
+      "_Name":"ActionBar",
+      "Items":[
+         {
+            "_Type":"Control.Type.ActionBarItem",
+            "_Name":"BtnFiltro",
+            "Icon":"sap-icon://filter",
+            "Position":"Right",
+            "OnPress":"/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action"
+         }
+      ]
+   },
+   "Controls":[
+      {
+         "_Type":"Control.Type.SectionedTable",
+         "_Name":"SectionedTable",
+         "Sections":[
+            {
+               "_Type":"Section.Type.FormCell",
+               "_Name":"BuscaSection",
+               "Controls":[
+                  {
+                     "_Type":"Control.Type.FormCell.SimpleProperty",
+                     "_Name":"InputBusca",
+                     "Placeholder":"Solicitação / OM",
+                     "AccessoryView":"ClearButton",
+                     "ReturnKeyType":"Search",
+                     "OnValueChange":"/EstoqueTransitorio/Rules/StoreBusca.js"
+                  }
+               ]
+            },
+            {
+               "_Type":"Section.Type.KeyValue",
+               "_Name":"Solicitacao_1",
+               "KeyAndValues":[
+                  {
+                     "Key":"Solicitação: 1800213110",
+                     "Value":"Ordem: 202506975542 (Manutenção de conversor)\nEquipamento: CONV-01-100\nNº componentes: 5"
+                  }
+               ]
+            },
+            {
+               "_Type":"Section.Type.KeyValue",
+               "_Name":"Solicitacao_2",
+               "KeyAndValues":[
+                  {
+                     "Key":"Solicitação: 1800213111",
+                     "Value":"Ordem: 202506975542 (Manutenção de conversor)\nEquipamento: CONV-01-100\nNº componentes: 5"
+                  }
+               ]
+            },
+            {
+               "_Type":"Section.Type.KeyValue",
+               "_Name":"Solicitacao_3",
+               "KeyAndValues":[
+                  {
+                     "Key":"Solicitação: 1800213112",
+                     "Value":"Ordem: 202506975542 (Manutenção de conversor)\nEquipamento: CONV-01-100\nNº componentes: 5"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

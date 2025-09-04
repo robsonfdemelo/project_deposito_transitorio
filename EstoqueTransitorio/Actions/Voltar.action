@@ -1,0 +1,5 @@
+{
+  "_Type": "Action.Type.Navigation",
+  "PageToOpen": "Pages/Application/EscanearPacote.page",
+  "NavType": "Push"
+}

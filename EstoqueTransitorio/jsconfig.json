@@ -1,0 +1,6 @@
+{
+    "include": [
+        "Rules/**/*",
+        "EstoqueTransitorio/.typings/**/*"
+    ]
+}

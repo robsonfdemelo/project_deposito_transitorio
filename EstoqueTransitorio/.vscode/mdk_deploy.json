@@ -1,0 +1,14 @@
+{
+	"Application": "/home/user/projects/project_deposito_transitorio/Application.app",
+	"Target": "Your Dev Space",
+	"OtherApps": [
+		{
+			"Application": "/home/user/projects/EstoqueTransitorio/Application.app",
+			"Target": "Your Dev Space"
+		},
+		{
+			"Application": "/home/user/projects/project_deposito_transitorio/Application.app",
+			"Target": "Your Dev Space"
+		}
+	]
+}

@@ -1,0 +1,224 @@
+/* Mata todos os estilos internos do SAP */
+.BlackBoldTitle * {
+  all: initial !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+
+/* ===== BOTÃO DE TEXTO PRETO ===== */
+.BlackTextButton {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  width: 72% !important;
+  max-width: 280px !important;
+  min-width: 140px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.BlackTextButton .sapMBtnInner {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-height: 14px !important; /* REDUZIDO */
+  line-height: 1 !important; /* REDUZIDO */
+}
+
+.BlackTextButton .sapMBtnInner .sapMBtnContent {
+  color: #000000 !important;
+  text-align: left !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 1 !important; /* REDUZIDO */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Botões azuis principais */
+.SmallBlueButton {
+  width: 72%;
+  max-width: 280px;
+  min-width: 140px;
+  padding: 2px 4px; /* REDUZIDO */
+  margin: 1px auto; /* REDUZIDO */
+  border-radius: 3px; /* REDUZIDO */
+  background-color: #0b74de;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1; /* ADICIONADO */
+}
+
+/* Espaçador GRANDE - MUITO REDUZIDO */
+.SpacerLarge {
+  font-size: 1px;
+  color: transparent;
+  padding: 2px 2px !important; /* MUITO REDUZIDO */
+  margin: 2px 0 !important; /* MUITO REDUZIDO */
+  background: transparent;
+  border: none;
+  line-height: 1; /* ADICIONADO */
+  height: 2px !important; /* ADICIONADO */
+}
+
+/* ===== título preto, negrito e responsivo ===== */
+.BlackBoldTitle {
+  all: initial !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 2px 0 0 !important; /* MUITO REDUZIDO */
+  line-height: 1 !important; /* ADICIONADO */
+}
+
+.BlackBoldTitle .sapMBtnText {
+  color: #111 !important;
+  font-weight: 700 !important;
+  font-size: 18px;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1 !important; /* REDUZIDO */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ===== cada linha de informação ===== */
+.InfoLine {
+  width: 72%;
+  max-width: 280px;
+  min-width: 140px;
+  margin: 1px auto !important; /* MUITO REDUZIDO */
+  color: #000;
+  line-height: 1 !important; /* REDUZIDO */
+}
+
+.InfoLine .sapMBtnInner {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important; /* MUITO REDUZIDO */
+  min-height: 16px !important; /* REDUZIDO */
+  color: #000;
+  line-height: 1 !important; /* REDUZIDO */
+  margin: 0 !important;
+}
+
+.InfoLine .sapMBtnContent {
+  justify-content: flex-start !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.InfoLine .sapMBtnText,
+.InfoLine .sapMBtnContent {
+  color: #000 !important;
+  text-align: left !important;
+  font-weight: 700 !important;
+  line-height: 1 !important; /* REDUZIDO */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ===== seção das infos ===== */
+.SectionTight {
+  padding-top: 0 !important; /* MUITO REDUZIDO */
+  padding-bottom: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 420px) { 
+  .BlackBoldTitle .sapMBtnText { 
+    font-size: 16px; 
+    line-height: 1 !important;
+  } 
+}
+
+@media (max-width: 360px) {
+  .BlackBoldTitle .sapMBtnText { 
+    font-size: 14px; 
+    line-height: 1 !important;
+  }
+  .SpacerLarge {
+    padding: 1px 1px !important;
+    margin: 1px 0 !important;
+    height: 1px !important;
+  }
+  .SmallBlueButton {
+    width: 68%;
+    font-size: 10px;
+    padding: 1px 3px;
+    margin: 0 auto;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .BlackBoldTitle .sapMBtnText { 
+    font-size: 12px; 
+    line-height: 1 !important;
+  }
+  .SpacerLarge {
+    padding: 1px 1px !important;
+    margin: 1px 0 !important;
+    height: 1px !important;
+  }
+  .SmallBlueButton {
+    width: 65%;
+    font-size: 9px;
+    padding: 1px 2px;
+    margin: 0 auto;
+  }
+}
+
+/* Estilos auxiliares */
+.GreenButton {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  min-width: 120px;
+  height: 30px; /* REDUZIDO */
+  border-radius: 3px; /* REDUZIDO */
+  text-align: center;
+  line-height: 1;
+  margin: 1px auto;
+  padding: 0 5px;
+}
+
+.RedButton {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  min-width: 120px;
+  height: 30px; /* REDUZIDO */
+  border-radius: 3px; /* REDUZIDO */
+  text-align: center;
+  line-height: 1;
+  margin: 1px auto;
+  padding: 0 5px;
+}
+
+.SpacerStyle {
+  font-size: 1px;
+  color: transparent;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1;
+}

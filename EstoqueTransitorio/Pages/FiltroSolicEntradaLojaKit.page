@@ -1,0 +1,49 @@
+{
+  "_Type": "Page",
+  "_Name": "FiltroSolicEntradaLojaKit",
+  "Caption": "Filtros",
+  "Controls": [
+    {
+      "_Type": "Control.Type.SectionedTable",
+      "_Name": "SectionedTable",
+      "Sections": [
+        {
+          "_Type": "Section.Type.FormCell",
+          "_Name": "Campos",
+          "Controls": [
+            {
+              "_Type": "Control.Type.FormCell.SimpleProperty",
+              "_Name": "FiltroTexto",
+              "Placeholder": "Solicitação / OM / Equipamento",
+              "Value": "#Application/#ClientData/filtroSolicEntrada/texto",
+              "AutoCapitalize": "None",
+              "KeyboardType": "Default",
+              "ReturnKeyType": "Done",
+              "OnValueChange": "/EstoqueTransitorio/Rules/StoreFiltroTexto.js"
+            }
+          ]
+        },
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "Acoes",
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnCancelar",
+              "Title": "Cancelar",
+              "ButtonType": "Text",
+              "OnPress": "~/EstoqueTransitorio/Actions/CloseModalPage.action"
+            },
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnAplicar",
+              "Title": "Aplicar",
+              "ButtonType": "Text", 
+              "OnPress": "~/EstoqueTransitorio/Actions/CloseModalPage_Complete.action"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

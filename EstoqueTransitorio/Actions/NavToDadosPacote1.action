@@ -1,0 +1,5 @@
+{
+  "_Type": "Action.Type.Navigation",
+  "PageToOpen": "Pages/Application/DadosPacote/DadosPacote1.page",
+  "NavType": "Push"
+}

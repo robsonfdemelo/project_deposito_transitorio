@@ -1,0 +1,40 @@
+{
+  "_Type": "Page",
+  "_Name": "ConfirmacaoRecebimento",
+  "Caption": "Dados do pacote",
+  "Controls": [
+    {
+      "_Type": "Control.Type.SectionedTable",
+      "_Name": "SectionedTable",
+      "Sections": [
+        {
+          "_Type": "Section.Type.ObjectTable",
+          "_Name": "MsgSection",
+          "Items": [
+            {
+              "_Type": "ObjectTable.Type.ObjectCell",
+              "Title": "Recebimento concluído",
+              "Subhead": "Materiais recebidos com sucesso pelo posto de estoque transitório.",
+              "AccessoryType": "none"
+            }
+          ]
+        },
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "BtnSection",
+          "Layout": { "LayoutType": "Horizontal", "HorizontalAlignment": "Center" },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnVoltar",
+              "Title": "Voltar",
+              "ButtonType": "Text",
+              "Width": "60%",
+              "OnPress": "/EstoqueTransitorio/Actions/ClosePage.action"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

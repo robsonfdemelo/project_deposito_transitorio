@@ -1,0 +1,109 @@
+{
+  "_Type": "Page",
+  "_Name": "SolicEntrega_Detalhe",
+  "Caption": "Dados do pacote (1/3)",
+  "ActionBar": {
+    "Items": []
+  },
+  "Controls": [
+    {
+      "_Type": "Control.Type.SectionedTable",
+      "_Name": "SectionedTable",
+      "Sections": [
+        {
+          "_Type": "Section.Type.KeyValue",
+          "_Name": "CabecalhoSection",
+          "KeyAndValues": [
+            {
+              "Key": "Ordem:",
+              "Value": "202500675542 (Manutenção de conversor)"
+            },
+            {
+              "Key": "Equipamento:",
+              "Value": "CONN-01-100"
+            }
+          ]
+        },
+        {
+          "_Type": "Section.Type.ObjectTable",
+          "_Name": "MateriaisSection",
+          "Selection": {
+            "Type": "SelectionType.Multiple"
+          },
+          "EmptySection": {
+            "Footer": "Sem materiais."
+          },
+          "ObjectCells": [
+            {
+              "Title": "151001",
+              "StatusText": "Qte: 5",
+              "Footnote": "Pto Desc.: Recepção",
+              "AccessoryType": "none"
+            },
+            {
+              "Title": "151002",
+              "StatusText": "Qte: 1",
+              "Footnote": "Pto Desc.: Recepção",
+              "AccessoryType": "none"
+            }
+          ]
+        },
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "BotoesLinha1",
+          "Layout": {
+            "LayoutType": "Horizontal",
+            "HorizontalAlignment": "Center",
+            "HorizontalSpacing": 8
+          },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnReceber",
+              "Title": "Receber",
+              "ButtonType": "Text",
+              "Width": "48%",
+              "OnPress": "/EstoqueTransitorio/Actions/ReceberMateriais.action",
+              "Enabled": "/EstoqueTransitorio/Rules/EnableReceber.js"
+            },
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnImprimir",
+              "Title": "Somente imprimir",
+              "ButtonType": "Text",
+              "Width": "48%",
+              "OnPress": "/EstoqueTransitorio/Actions/SomenteImprimir.action"
+            }
+          ]
+        },
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "BotoesLinha2",
+          "Layout": {
+            "LayoutType": "Horizontal",
+            "HorizontalAlignment": "Center",
+            "HorizontalSpacing": 8
+          },
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnVoltar",
+              "Title": "Voltar",
+              "ButtonType": "Text",
+              "Width": "48%",
+              "OnPress": "/EstoqueTransitorio/Actions/Voltar.action"
+            },
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "BtnProximaOM",
+              "Title": "Próxima OM",
+              "ButtonType": "Text",
+              "Width": "48%",
+              "OnPress": "/EstoqueTransitorio/Actions/ProximaOM.action"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

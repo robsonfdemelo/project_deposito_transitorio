@@ -1,0 +1,6 @@
+{
+  "_Type": "Action.Type.OpenBarcodeScanner",
+  "IsModal": true,
+  "OnSuccess": "Rules/OnScanSuccess.js",
+  "OnFailure": "Rules/OnScanFail.js"
+}

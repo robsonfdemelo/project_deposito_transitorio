@@ -1,0 +1,273 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": false,
+						"FooterSeparator": false,
+						"ControlSeparator": false
+					},
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Center"
+					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "TitleSection",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"Styles": {
+								"Button": "BlackBoldTitle"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "AppTitle",
+							"Title": "Gestão de Estoque Transitório",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": false
+						}
+					]
+				},
+				{
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Center"
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": false,
+						"HeaderSeparator": false,
+						"FooterSeparator": false,
+						"ControlSeparator": false
+					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "MainButtonsSection",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"Styles": {
+								"Button": "SmallBlueButton"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnPreferencias",
+							"Title": "Preferências",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+						},
+						{
+							"Styles": {
+								"Button": "SmallBlueButton"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnEscanear",
+							"Title": "Escanear Pacote",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/EstoqueTransitorio/Actions/NavToEscanearPacote.action"
+						},
+						{
+							"Styles": {
+								"Button": "SmallBlueButton"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnEntradaKit",
+							"Title": "Entrada de Loja do KIT",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/EstoqueTransitorio/Actions/NavToSolicitacoes.action"
+						},
+						{
+							"Styles": {
+								"Button": "SmallBlueButton"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnEntradaSobra",
+							"Title": "Entrada de Sobra",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+						},
+						{
+							"Styles": {
+								"Button": "SmallBlueButton"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnTransferencias",
+							"Title": "Transferências de OM",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+						},
+						{
+							"Styles": {
+								"Button": "SmallBlueButton"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnPendencias",
+							"Title": "Pendências Recebimento",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/EstoqueTransitorio/Actions/NavToPreferencias.action"
+						}
+					]
+				},
+				{
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Center"
+					},
+					"Separators": {
+						"TopSectionSeparator": true,
+						"BottomSectionSeparator": false,
+						"HeaderSeparator": false,
+						"FooterSeparator": false,
+						"ControlSeparator": false
+					},
+					"Styles": {
+						"Section": "SpacingSection"
+					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "InfoResumo",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"Styles": {
+								"Button": "InfoLine"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnCentro",
+							"Title": "Centro: 1090 - Usina Vitória",
+							"Alignment": "Left",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": false
+						},
+						{
+							"Styles": {
+								"Button": "InfoLine"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnCentroTrab",
+							"Title": "Centro de Trabalho: SU15",
+							"Alignment": "Left",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": false
+						},
+						{
+							"Styles": {
+								"Button": "InfoLine"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnDepMM",
+							"Title": "Depósito MM: PET1",
+							"Alignment": "Left",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": false
+						},
+						{
+							"Styles": {
+								"Button": "InfoLine"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnDepWM",
+							"Title": "Nº Depósito WM: 00A",
+							"Alignment": "Left",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": false
+						},
+						{
+							"Styles": {
+								"Button": "InfoLine"
+							},
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnImpressora",
+							"Title": "Impressora: ZEBRA-PET1",
+							"Alignment": "Left",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": false
+						}
+					]
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar"
+	}
+}

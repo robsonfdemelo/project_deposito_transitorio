@@ -1,0 +1,54 @@
+{
+  "_Type": "Page",
+  "_Name": "DadosPacote1",
+  "ActionBar": {
+    "_Type": "Control.Type.ActionBar",
+    "_Name": "AB1",
+    "Caption": "Dados do pacote",
+    "Items": []
+  },
+  "Controls": [
+    {
+      "_Type": "Control.Type.SectionedTable",
+      "_Name": "ST1",
+      "Sections": [
+        {
+          "_Type": "Section.Type.FormCell",
+          "_Name": "S1Tit",
+          "Caption": "Atenção",
+          "Style": "TituloPerigo"
+        },
+        {
+          "_Type": "Section.Type.FormCell",
+          "_Name": "S1Txt",
+          "Caption": "Neste pacote há materiais de 03 ordens de manutenção. Favor separar os materiais.\n\nSerá impressa uma etiqueta por material.",
+          "Style": "TextoCentro"
+        },
+        {
+          "_Type": "Section.Type.ButtonTable",
+          "_Name": "S1Btns",
+          "Buttons": [
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "Btn1Next",
+              "Title": "Concordar",
+              "ButtonType": "Text",
+              "OnPress": "Actions/NavToDadosPacote2.action"
+            },
+            {
+              "_Type": "ButtonTable.Type.Button",
+              "_Name": "Btn1Back",
+              "Title": "Voltar",
+              "ButtonType": "Text",
+              "OnPress": "Actions/Voltar.action"
+            }
+          ],
+          "Layout": {
+            "LayoutType": "Horizontal",
+            "HorizontalAlignment": "Center"
+          }
+        }
+      ]
+    }
+  ]
+}
