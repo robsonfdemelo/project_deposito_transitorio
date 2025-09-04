@@ -1,0 +1,9 @@
+{
+  "Type": "Mobile",
+  "SchemaVersion": "1.0", 
+  "ProjectType": "MDK",
+  "ClientVersion": "6.0",
+  "BuildPlatforms": ["Android", "iOS"],
+  "ApplicationId": "controle.estoque.transitorio",
+  "DisplayName": "Controle de Estoque Transitorio"
+}

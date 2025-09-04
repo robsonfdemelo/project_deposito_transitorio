@@ -1,2 +1,0 @@
-Pass:
-Generated bundle file /home/user/projects/project_deposito_transitorio/EstoqueTransitorio/.build/EstoqueTransitorio/.build/uploadBundle.zip

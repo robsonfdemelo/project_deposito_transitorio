@@ -1,0 +1,14 @@
+{
+  "BundleId": "br.com.empresa.controleestoque",
+  "DisplayName": "Controle de Estoque Transitorio",
+  "Version": "1.0.0",
+  "VersionNumber": 1,
+  "AppIcon": "icon.png",
+  "AndroidSettings": {
+    "PackageName": "br.com.empresa.controleestoque",
+    "VersionCode": 1,
+    "VersionName": "1.0.0",
+    "MinSdkVersion": 21,
+    "TargetSdkVersion": 33
+  }
+}

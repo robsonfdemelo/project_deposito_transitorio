@@ -28,41 +28,41 @@ module.exports = ""
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 let application_app = __webpack_require__(/*! ./Application.app */ "./build.definitions/Application.app")
-let estoquetransitorio_actions_application_appupdate_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/AppUpdate.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdate.action")
-let estoquetransitorio_actions_application_appupdatefailuremessage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action")
-let estoquetransitorio_actions_application_appupdateprogressbanner_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action")
-let estoquetransitorio_actions_application_appupdatesuccessmessage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action")
-let estoquetransitorio_actions_application_logout_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/Logout.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/Logout.action")
-let estoquetransitorio_actions_application_navtoabout_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/NavToAbout.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/NavToAbout.action")
-let estoquetransitorio_actions_application_navtoactivitylog_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/NavToActivityLog.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/NavToActivityLog.action")
-let estoquetransitorio_actions_application_navtosupport_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/NavToSupport.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/NavToSupport.action")
-let estoquetransitorio_actions_application_onwillupdate_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/OnWillUpdate.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/OnWillUpdate.action")
-let estoquetransitorio_actions_application_reset_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/Reset.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/Reset.action")
-let estoquetransitorio_actions_application_resetmessage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/ResetMessage.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/ResetMessage.action")
-let estoquetransitorio_actions_application_usermenupopover_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Application/UserMenuPopover.action */ "./build.definitions/EstoqueTransitorio/Actions/Application/UserMenuPopover.action")
-let estoquetransitorio_actions_closemodalpage_cancel_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/CloseModalPage_Cancel.action */ "./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action")
-let estoquetransitorio_actions_closemodalpage_complete_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/CloseModalPage_Complete.action */ "./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Complete.action")
-let estoquetransitorio_actions_closepage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/ClosePage.action */ "./build.definitions/EstoqueTransitorio/Actions/ClosePage.action")
-let estoquetransitorio_actions_concordar_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Concordar.action */ "./build.definitions/EstoqueTransitorio/Actions/Concordar.action")
-let estoquetransitorio_actions_filtrosolicentradalojakit_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action */ "./build.definitions/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action")
-let estoquetransitorio_actions_genericbannermessage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericBannerMessage.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericBannerMessage.action")
-let estoquetransitorio_actions_genericmessagebox_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericMessageBox.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericMessageBox.action")
-let estoquetransitorio_actions_genericnavigation_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericNavigation.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericNavigation.action")
-let estoquetransitorio_actions_generictoastmessage_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/GenericToastMessage.action */ "./build.definitions/EstoqueTransitorio/Actions/GenericToastMessage.action")
-let estoquetransitorio_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/LogUploadFailure.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action")
-let estoquetransitorio_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action")
-let estoquetransitorio_actions_logging_uploadlog_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/UploadLog.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLog.action")
-let estoquetransitorio_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Logging/UploadLogProgress.action */ "./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action")
-let estoquetransitorio_actions_navbacktosolicitacoes_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavBackToSolicitacoes.action */ "./build.definitions/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action")
-let estoquetransitorio_actions_navtodadospacote1_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToDadosPacote1.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToDadosPacote1.action")
-let estoquetransitorio_actions_navtoescanearpacote_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToEscanearPacote.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToEscanearPacote.action")
-let estoquetransitorio_actions_navtopreferencias_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToPreferencias.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToPreferencias.action")
-let estoquetransitorio_actions_navtosolicitacoes_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/NavToSolicitacoes.action */ "./build.definitions/EstoqueTransitorio/Actions/NavToSolicitacoes.action")
-let estoquetransitorio_actions_proximaom_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/ProximaOM.action */ "./build.definitions/EstoqueTransitorio/Actions/ProximaOM.action")
-let estoquetransitorio_actions_recebermateriais_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/ReceberMateriais.action */ "./build.definitions/EstoqueTransitorio/Actions/ReceberMateriais.action")
-let estoquetransitorio_actions_scanbarcode_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/ScanBarcode.action */ "./build.definitions/EstoqueTransitorio/Actions/ScanBarcode.action")
-let estoquetransitorio_actions_somenteimprimir_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/SomenteImprimir.action */ "./build.definitions/EstoqueTransitorio/Actions/SomenteImprimir.action")
-let estoquetransitorio_actions_voltar_action = __webpack_require__(/*! ./EstoqueTransitorio/Actions/Voltar.action */ "./build.definitions/EstoqueTransitorio/Actions/Voltar.action")
+let estoquetransitorio_estoquetransitorio_actions_application_appupdate_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdate.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdate.action")
+let estoquetransitorio_estoquetransitorio_actions_application_appupdatefailuremessage_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action")
+let estoquetransitorio_estoquetransitorio_actions_application_appupdateprogressbanner_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action")
+let estoquetransitorio_estoquetransitorio_actions_application_appupdatesuccessmessage_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action")
+let estoquetransitorio_estoquetransitorio_actions_application_logout_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Logout.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Logout.action")
+let estoquetransitorio_estoquetransitorio_actions_application_navtoabout_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToAbout.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToAbout.action")
+let estoquetransitorio_estoquetransitorio_actions_application_navtoactivitylog_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToActivityLog.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToActivityLog.action")
+let estoquetransitorio_estoquetransitorio_actions_application_navtosupport_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToSupport.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToSupport.action")
+let estoquetransitorio_estoquetransitorio_actions_application_onwillupdate_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/OnWillUpdate.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/OnWillUpdate.action")
+let estoquetransitorio_estoquetransitorio_actions_application_reset_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Reset.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Reset.action")
+let estoquetransitorio_estoquetransitorio_actions_application_resetmessage_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/ResetMessage.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/ResetMessage.action")
+let estoquetransitorio_estoquetransitorio_actions_application_usermenupopover_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Application/UserMenuPopover.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/UserMenuPopover.action")
+let estoquetransitorio_estoquetransitorio_actions_closemodalpage_cancel_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action")
+let estoquetransitorio_estoquetransitorio_actions_closemodalpage_complete_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Complete.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Complete.action")
+let estoquetransitorio_estoquetransitorio_actions_closepage_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/ClosePage.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ClosePage.action")
+let estoquetransitorio_estoquetransitorio_actions_concordar_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Concordar.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Concordar.action")
+let estoquetransitorio_estoquetransitorio_actions_filtrosolicentradalojakit_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action")
+let estoquetransitorio_estoquetransitorio_actions_genericbannermessage_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/GenericBannerMessage.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericBannerMessage.action")
+let estoquetransitorio_estoquetransitorio_actions_genericmessagebox_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/GenericMessageBox.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericMessageBox.action")
+let estoquetransitorio_estoquetransitorio_actions_genericnavigation_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/GenericNavigation.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericNavigation.action")
+let estoquetransitorio_estoquetransitorio_actions_generictoastmessage_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/GenericToastMessage.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericToastMessage.action")
+let estoquetransitorio_estoquetransitorio_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action")
+let estoquetransitorio_estoquetransitorio_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action")
+let estoquetransitorio_estoquetransitorio_actions_logging_uploadlog_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLog.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLog.action")
+let estoquetransitorio_estoquetransitorio_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action")
+let estoquetransitorio_estoquetransitorio_actions_navbacktosolicitacoes_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action")
+let estoquetransitorio_estoquetransitorio_actions_navtodadospacote1_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/NavToDadosPacote1.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToDadosPacote1.action")
+let estoquetransitorio_estoquetransitorio_actions_navtoescanearpacote_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/NavToEscanearPacote.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToEscanearPacote.action")
+let estoquetransitorio_estoquetransitorio_actions_navtopreferencias_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/NavToPreferencias.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToPreferencias.action")
+let estoquetransitorio_estoquetransitorio_actions_navtosolicitacoes_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/NavToSolicitacoes.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToSolicitacoes.action")
+let estoquetransitorio_estoquetransitorio_actions_proximaom_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/ProximaOM.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ProximaOM.action")
+let estoquetransitorio_estoquetransitorio_actions_recebermateriais_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/ReceberMateriais.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ReceberMateriais.action")
+let estoquetransitorio_estoquetransitorio_actions_scanbarcode_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/ScanBarcode.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ScanBarcode.action")
+let estoquetransitorio_estoquetransitorio_actions_somenteimprimir_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/SomenteImprimir.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/SomenteImprimir.action")
+let estoquetransitorio_estoquetransitorio_actions_voltar_action = __webpack_require__(/*! ./EstoqueTransitorio/EstoqueTransitorio/Actions/Voltar.action */ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Voltar.action")
 let estoquetransitorio_globals_application_appdefinition_version_global = __webpack_require__(/*! ./EstoqueTransitorio/Globals/Application/AppDefinition_Version.global */ "./build.definitions/EstoqueTransitorio/Globals/Application/AppDefinition_Version.global")
 let estoquetransitorio_globals_application_applicationname_global = __webpack_require__(/*! ./EstoqueTransitorio/Globals/Application/ApplicationName.global */ "./build.definitions/EstoqueTransitorio/Globals/Application/ApplicationName.global")
 let estoquetransitorio_globals_application_supportemail_global = __webpack_require__(/*! ./EstoqueTransitorio/Globals/Application/SupportEmail.global */ "./build.definitions/EstoqueTransitorio/Globals/Application/SupportEmail.global")
@@ -114,41 +114,41 @@ let version_mdkbundlerversion = __webpack_require__(/*! ./version.mdkbundlervers
 
 module.exports = {
 	application_app : application_app,
-	estoquetransitorio_actions_application_appupdate_action : estoquetransitorio_actions_application_appupdate_action,
-	estoquetransitorio_actions_application_appupdatefailuremessage_action : estoquetransitorio_actions_application_appupdatefailuremessage_action,
-	estoquetransitorio_actions_application_appupdateprogressbanner_action : estoquetransitorio_actions_application_appupdateprogressbanner_action,
-	estoquetransitorio_actions_application_appupdatesuccessmessage_action : estoquetransitorio_actions_application_appupdatesuccessmessage_action,
-	estoquetransitorio_actions_application_logout_action : estoquetransitorio_actions_application_logout_action,
-	estoquetransitorio_actions_application_navtoabout_action : estoquetransitorio_actions_application_navtoabout_action,
-	estoquetransitorio_actions_application_navtoactivitylog_action : estoquetransitorio_actions_application_navtoactivitylog_action,
-	estoquetransitorio_actions_application_navtosupport_action : estoquetransitorio_actions_application_navtosupport_action,
-	estoquetransitorio_actions_application_onwillupdate_action : estoquetransitorio_actions_application_onwillupdate_action,
-	estoquetransitorio_actions_application_reset_action : estoquetransitorio_actions_application_reset_action,
-	estoquetransitorio_actions_application_resetmessage_action : estoquetransitorio_actions_application_resetmessage_action,
-	estoquetransitorio_actions_application_usermenupopover_action : estoquetransitorio_actions_application_usermenupopover_action,
-	estoquetransitorio_actions_closemodalpage_cancel_action : estoquetransitorio_actions_closemodalpage_cancel_action,
-	estoquetransitorio_actions_closemodalpage_complete_action : estoquetransitorio_actions_closemodalpage_complete_action,
-	estoquetransitorio_actions_closepage_action : estoquetransitorio_actions_closepage_action,
-	estoquetransitorio_actions_concordar_action : estoquetransitorio_actions_concordar_action,
-	estoquetransitorio_actions_filtrosolicentradalojakit_action : estoquetransitorio_actions_filtrosolicentradalojakit_action,
-	estoquetransitorio_actions_genericbannermessage_action : estoquetransitorio_actions_genericbannermessage_action,
-	estoquetransitorio_actions_genericmessagebox_action : estoquetransitorio_actions_genericmessagebox_action,
-	estoquetransitorio_actions_genericnavigation_action : estoquetransitorio_actions_genericnavigation_action,
-	estoquetransitorio_actions_generictoastmessage_action : estoquetransitorio_actions_generictoastmessage_action,
-	estoquetransitorio_actions_logging_loguploadfailure_action : estoquetransitorio_actions_logging_loguploadfailure_action,
-	estoquetransitorio_actions_logging_loguploadsuccessful_action : estoquetransitorio_actions_logging_loguploadsuccessful_action,
-	estoquetransitorio_actions_logging_uploadlog_action : estoquetransitorio_actions_logging_uploadlog_action,
-	estoquetransitorio_actions_logging_uploadlogprogress_action : estoquetransitorio_actions_logging_uploadlogprogress_action,
-	estoquetransitorio_actions_navbacktosolicitacoes_action : estoquetransitorio_actions_navbacktosolicitacoes_action,
-	estoquetransitorio_actions_navtodadospacote1_action : estoquetransitorio_actions_navtodadospacote1_action,
-	estoquetransitorio_actions_navtoescanearpacote_action : estoquetransitorio_actions_navtoescanearpacote_action,
-	estoquetransitorio_actions_navtopreferencias_action : estoquetransitorio_actions_navtopreferencias_action,
-	estoquetransitorio_actions_navtosolicitacoes_action : estoquetransitorio_actions_navtosolicitacoes_action,
-	estoquetransitorio_actions_proximaom_action : estoquetransitorio_actions_proximaom_action,
-	estoquetransitorio_actions_recebermateriais_action : estoquetransitorio_actions_recebermateriais_action,
-	estoquetransitorio_actions_scanbarcode_action : estoquetransitorio_actions_scanbarcode_action,
-	estoquetransitorio_actions_somenteimprimir_action : estoquetransitorio_actions_somenteimprimir_action,
-	estoquetransitorio_actions_voltar_action : estoquetransitorio_actions_voltar_action,
+	estoquetransitorio_estoquetransitorio_actions_application_appupdate_action : estoquetransitorio_estoquetransitorio_actions_application_appupdate_action,
+	estoquetransitorio_estoquetransitorio_actions_application_appupdatefailuremessage_action : estoquetransitorio_estoquetransitorio_actions_application_appupdatefailuremessage_action,
+	estoquetransitorio_estoquetransitorio_actions_application_appupdateprogressbanner_action : estoquetransitorio_estoquetransitorio_actions_application_appupdateprogressbanner_action,
+	estoquetransitorio_estoquetransitorio_actions_application_appupdatesuccessmessage_action : estoquetransitorio_estoquetransitorio_actions_application_appupdatesuccessmessage_action,
+	estoquetransitorio_estoquetransitorio_actions_application_logout_action : estoquetransitorio_estoquetransitorio_actions_application_logout_action,
+	estoquetransitorio_estoquetransitorio_actions_application_navtoabout_action : estoquetransitorio_estoquetransitorio_actions_application_navtoabout_action,
+	estoquetransitorio_estoquetransitorio_actions_application_navtoactivitylog_action : estoquetransitorio_estoquetransitorio_actions_application_navtoactivitylog_action,
+	estoquetransitorio_estoquetransitorio_actions_application_navtosupport_action : estoquetransitorio_estoquetransitorio_actions_application_navtosupport_action,
+	estoquetransitorio_estoquetransitorio_actions_application_onwillupdate_action : estoquetransitorio_estoquetransitorio_actions_application_onwillupdate_action,
+	estoquetransitorio_estoquetransitorio_actions_application_reset_action : estoquetransitorio_estoquetransitorio_actions_application_reset_action,
+	estoquetransitorio_estoquetransitorio_actions_application_resetmessage_action : estoquetransitorio_estoquetransitorio_actions_application_resetmessage_action,
+	estoquetransitorio_estoquetransitorio_actions_application_usermenupopover_action : estoquetransitorio_estoquetransitorio_actions_application_usermenupopover_action,
+	estoquetransitorio_estoquetransitorio_actions_closemodalpage_cancel_action : estoquetransitorio_estoquetransitorio_actions_closemodalpage_cancel_action,
+	estoquetransitorio_estoquetransitorio_actions_closemodalpage_complete_action : estoquetransitorio_estoquetransitorio_actions_closemodalpage_complete_action,
+	estoquetransitorio_estoquetransitorio_actions_closepage_action : estoquetransitorio_estoquetransitorio_actions_closepage_action,
+	estoquetransitorio_estoquetransitorio_actions_concordar_action : estoquetransitorio_estoquetransitorio_actions_concordar_action,
+	estoquetransitorio_estoquetransitorio_actions_filtrosolicentradalojakit_action : estoquetransitorio_estoquetransitorio_actions_filtrosolicentradalojakit_action,
+	estoquetransitorio_estoquetransitorio_actions_genericbannermessage_action : estoquetransitorio_estoquetransitorio_actions_genericbannermessage_action,
+	estoquetransitorio_estoquetransitorio_actions_genericmessagebox_action : estoquetransitorio_estoquetransitorio_actions_genericmessagebox_action,
+	estoquetransitorio_estoquetransitorio_actions_genericnavigation_action : estoquetransitorio_estoquetransitorio_actions_genericnavigation_action,
+	estoquetransitorio_estoquetransitorio_actions_generictoastmessage_action : estoquetransitorio_estoquetransitorio_actions_generictoastmessage_action,
+	estoquetransitorio_estoquetransitorio_actions_logging_loguploadfailure_action : estoquetransitorio_estoquetransitorio_actions_logging_loguploadfailure_action,
+	estoquetransitorio_estoquetransitorio_actions_logging_loguploadsuccessful_action : estoquetransitorio_estoquetransitorio_actions_logging_loguploadsuccessful_action,
+	estoquetransitorio_estoquetransitorio_actions_logging_uploadlog_action : estoquetransitorio_estoquetransitorio_actions_logging_uploadlog_action,
+	estoquetransitorio_estoquetransitorio_actions_logging_uploadlogprogress_action : estoquetransitorio_estoquetransitorio_actions_logging_uploadlogprogress_action,
+	estoquetransitorio_estoquetransitorio_actions_navbacktosolicitacoes_action : estoquetransitorio_estoquetransitorio_actions_navbacktosolicitacoes_action,
+	estoquetransitorio_estoquetransitorio_actions_navtodadospacote1_action : estoquetransitorio_estoquetransitorio_actions_navtodadospacote1_action,
+	estoquetransitorio_estoquetransitorio_actions_navtoescanearpacote_action : estoquetransitorio_estoquetransitorio_actions_navtoescanearpacote_action,
+	estoquetransitorio_estoquetransitorio_actions_navtopreferencias_action : estoquetransitorio_estoquetransitorio_actions_navtopreferencias_action,
+	estoquetransitorio_estoquetransitorio_actions_navtosolicitacoes_action : estoquetransitorio_estoquetransitorio_actions_navtosolicitacoes_action,
+	estoquetransitorio_estoquetransitorio_actions_proximaom_action : estoquetransitorio_estoquetransitorio_actions_proximaom_action,
+	estoquetransitorio_estoquetransitorio_actions_recebermateriais_action : estoquetransitorio_estoquetransitorio_actions_recebermateriais_action,
+	estoquetransitorio_estoquetransitorio_actions_scanbarcode_action : estoquetransitorio_estoquetransitorio_actions_scanbarcode_action,
+	estoquetransitorio_estoquetransitorio_actions_somenteimprimir_action : estoquetransitorio_estoquetransitorio_actions_somenteimprimir_action,
+	estoquetransitorio_estoquetransitorio_actions_voltar_action : estoquetransitorio_estoquetransitorio_actions_voltar_action,
 	estoquetransitorio_globals_application_appdefinition_version_global : estoquetransitorio_globals_application_appdefinition_version_global,
 	estoquetransitorio_globals_application_applicationname_global : estoquetransitorio_globals_application_applicationname_global,
 	estoquetransitorio_globals_application_supportemail_global : estoquetransitorio_globals_application_supportemail_global,
@@ -1895,350 +1895,350 @@ module.exports = {"_Name":"EstoqueTransitorio","Version":"/EstoqueTransitorio/Gl
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdate.action":
-/*!***********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdate.action ***!
-  \***********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdate.action":
+/*!******************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdate.action ***!
+  \******************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ApplicationUpdate","ActionResult":{"_Name":"AppUpdate"},"OnFailure":"/EstoqueTransitorio/Rules/Application/AppUpdateFailure.js","OnSuccess":"/EstoqueTransitorio/Rules/Application/AppUpdateSuccess.js"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action":
-/*!*************************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action ***!
-  \*************************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action":
+/*!********************************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateFailureMessage.action ***!
+  \********************************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"Message":"Failed to update application - {#ActionResults:AppUpdate/error}","Duration":7,"Animated":true,"_Type":"Action.Type.BannerMessage"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action":
-/*!*************************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action ***!
-  \*************************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action":
+/*!********************************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action ***!
+  \********************************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"Animated":true,"CompletionTimeout":3,"Message":"Checking for Updates...","OnSuccess":"/EstoqueTransitorio/Actions/Application/AppUpdate.action","_Type":"Action.Type.ProgressBanner"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action":
-/*!*************************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action ***!
-  \*************************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action":
+/*!********************************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/AppUpdateSuccessMessage.action ***!
+  \********************************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"Animated":true,"Duration":2,"Message":"Update application complete","_Type":"Action.Type.ToastMessage"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/Logout.action":
-/*!********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/Logout.action ***!
-  \********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Logout.action":
+/*!***************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Logout.action ***!
+  \***************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Logout","SkipReset":true}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/NavToAbout.action":
-/*!************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/NavToAbout.action ***!
-  \************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToAbout.action":
+/*!*******************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToAbout.action ***!
+  \*******************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"ModalPage":true,"PageToOpen":"/EstoqueTransitorio/Pages/Application/About.page","_Type":"Action.Type.Navigation"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/NavToActivityLog.action":
-/*!******************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/NavToActivityLog.action ***!
-  \******************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToActivityLog.action":
+/*!*************************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToActivityLog.action ***!
+  \*************************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"ModalPage":true,"PageToOpen":"/EstoqueTransitorio/Pages/Application/UserActivityLog.page","_Type":"Action.Type.Navigation"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/NavToSupport.action":
-/*!**************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/NavToSupport.action ***!
-  \**************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToSupport.action":
+/*!*********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/NavToSupport.action ***!
+  \*********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"ModalPage":true,"NavigationType":"Cross","PageToOpen":"/EstoqueTransitorio/Pages/Application/Support.page","_Type":"Action.Type.Navigation"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/OnWillUpdate.action":
-/*!**************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/OnWillUpdate.action ***!
-  \**************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/OnWillUpdate.action":
+/*!*********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/OnWillUpdate.action ***!
+  \*********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Message","Message":"A new version of the application is now ready to apply. Do you want to update to this version?","Title":"New Version Available!","OKCaption":"Now","CancelCaption":"Later","ActionResult":{"_Name":"OnWillUpdate"}}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/Reset.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/Reset.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Reset.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/Reset.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Logout","SkipReset":false}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/ResetMessage.action":
-/*!**************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/ResetMessage.action ***!
-  \**************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/ResetMessage.action":
+/*!*********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/ResetMessage.action ***!
+  \*********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Message","Message":"This action will remove all data and return to the Welcome screen. Any local data will be lost. Are you sure you want to continue?","Title":"Reset","OKCaption":"Yes","OnOK":"/EstoqueTransitorio/Rules/Application/ResetAppSettingsAndLogout.js","CancelCaption":"No"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Application/UserMenuPopover.action":
-/*!*****************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Application/UserMenuPopover.action ***!
-  \*****************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/UserMenuPopover.action":
+/*!************************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Application/UserMenuPopover.action ***!
+  \************************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"PopoverItems":[{"Enabled":true,"Icon":"sap-icon://headset","OnPress":"/EstoqueTransitorio/Actions/Application/NavToSupport.action","Title":"Support","Visible":true},{"Enabled":true,"Icon":"sap-icon://refresh","OnPress":"/EstoqueTransitorio/Actions/Application/AppUpdateProgressBanner.action","Title":"Check for Updates","Visible":"$(PLT,true,true,false)"},{"Enabled":true,"Icon":"sap-icon://hint","OnPress":"/EstoqueTransitorio/Actions/Application/NavToAbout.action","Title":"About","Visible":true},{"Enabled":true,"Icon":"sap-icon://reset","OnPress":"/EstoqueTransitorio/Actions/Application/ResetMessage.action","Title":"Reset","Visible":true},{"Enabled":true,"Icon":"sap-icon://log","OnPress":"/EstoqueTransitorio/Actions/Application/Logout.action","Title":"Logout","Visible":"/EstoqueTransitorio/Rules/Application/ClientIsMultiUserMode.js"}],"_Type":"Action.Type.PopoverMenu"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action":
-/*!***********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action ***!
-  \***********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action":
+/*!******************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Cancel.action ***!
+  \******************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"DismissModal":"Action.Type.ClosePage.Canceled","CancelPendingActions":true,"_Type":"Action.Type.ClosePage"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Complete.action":
-/*!*************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/CloseModalPage_Complete.action ***!
-  \*************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Complete.action":
+/*!********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/CloseModalPage_Complete.action ***!
+  \********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"DismissModal":"Action.Type.ClosePage.Completed","CancelPendingActions":false,"_Type":"Action.Type.ClosePage"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/ClosePage.action":
-/*!***********************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/ClosePage.action ***!
-  \***********************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ClosePage.action":
+/*!******************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ClosePage.action ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ClosePage"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Concordar.action":
-/*!***********************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Concordar.action ***!
-  \***********************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Concordar.action":
+/*!******************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Concordar.action ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Message","Message":"Concordado. (avance para a próxima etapa aqui)"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action":
-/*!***************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action ***!
-  \***************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action":
+/*!**********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/FiltroSolicEntradaLojaKit.action ***!
+  \**********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"/EstoqueTransitorio/Pages/FiltroSolicEntradaLojaKit.page","ModalPage":true,"Transition":{"0":"N","1":"o","2":"n","3":"e"}}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/GenericBannerMessage.action":
-/*!**********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/GenericBannerMessage.action ***!
-  \**********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericBannerMessage.action":
+/*!*****************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericBannerMessage.action ***!
+  \*****************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.BannerMessage","ActionResult":{"_Name":"GenericBannerMessage"},"Message":"Message"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/GenericMessageBox.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/GenericMessageBox.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericMessageBox.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericMessageBox.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Message","ActionResult":{"_Name":"GenericMessageBox"},"Message":"Message","OKCaption":"OK"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/GenericNavigation.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/GenericNavigation.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericNavigation.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericNavigation.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"GenericNavigation"},"PageToOpen":"/EstoqueTransitorio/Pages/Main.page"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/GenericToastMessage.action":
-/*!*********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/GenericToastMessage.action ***!
-  \*********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericToastMessage.action":
+/*!****************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/GenericToastMessage.action ***!
+  \****************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ToastMessage","ActionResult":{"_Name":"GenericToastMessage"},"Message":"Message"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action":
-/*!**************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action ***!
-  \**************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action":
+/*!*********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action ***!
+  \*********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"Message":"Uploading log file failed with error: {#ActionResults:UploadLog/error}","OKCaption":"OK","Title":"Log Upload Failed","_Type":"Action.Type.Message"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action":
-/*!*****************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action ***!
-  \*****************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action":
+/*!************************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action ***!
+  \************************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"Animated":true,"Duration":3,"IsIconHidden":false,"MaxNumberOfLines":1,"Message":"Log File Uploaded","_Type":"Action.Type.ToastMessage"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLog.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLog.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLog.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLog.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"ActionResult":{"_Name":"UploadLog"},"ActivityIndicatorText":"Uploading...","OnFailure":"/EstoqueTransitorio/Actions/Logging/LogUploadFailure.action","OnSuccess":"/EstoqueTransitorio/Actions/Logging/LogUploadSuccessful.action","ShowActivityIndicator":false,"_Type":"Action.Type.Logger.Upload"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action":
-/*!***************************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action ***!
-  \***************************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action":
+/*!**********************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Logging/UploadLogProgress.action ***!
+  \**********************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"Animated":true,"CompletionMessage":"Logs Uploaded","CompletionTimeout":2,"Message":"Uploading Log Files...","OnSuccess":"/EstoqueTransitorio/Actions/Logging/UploadLog.action","_Type":"Action.Type.ProgressBanner"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action":
-/*!***********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action ***!
-  \***********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action":
+/*!******************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavBackToSolicitacoes.action ***!
+  \******************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"/EstoqueTransitorio/Pages/SolicEntrega_EntradaLojaKit.page","ModalPage":false,"Transition":{"0":"N","1":"o","2":"n","3":"e"}}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/NavToDadosPacote1.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/NavToDadosPacote1.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToDadosPacote1.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToDadosPacote1.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"Pages/Application/DadosPacote/DadosPacote1.page","NavType":"Push"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/NavToEscanearPacote.action":
-/*!*********************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/NavToEscanearPacote.action ***!
-  \*********************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToEscanearPacote.action":
+/*!****************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToEscanearPacote.action ***!
+  \****************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToEscanearPacote"},"PageToOpen":"/EstoqueTransitorio/Pages/EscanearPacote.page"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/NavToPreferencias.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/NavToPreferencias.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToPreferencias.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToPreferencias.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToPreferencias"},"PageToOpen":"/EstoqueTransitorio/Pages/Preferencias.page"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/NavToSolicitacoes.action":
-/*!*******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/NavToSolicitacoes.action ***!
-  \*******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToSolicitacoes.action":
+/*!**************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/NavToSolicitacoes.action ***!
+  \**************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"/EstoqueTransitorio/Pages/SolicEntrega_EntradaLojaKit.page","ModalPage":false,"Transition":{"0":"N","1":"o","2":"n","3":"e"},"ResetIfPresent":true}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/ProximaOM.action":
-/*!***********************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/ProximaOM.action ***!
-  \***********************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ProximaOM.action":
+/*!******************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ProximaOM.action ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"/EstoqueTransitorio/Pages/SolicEntrega_Detalhe.page","ModalPage":false,"Transition":{"0":"N","1":"o","2":"n","3":"e"}}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/ReceberMateriais.action":
-/*!******************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/ReceberMateriais.action ***!
-  \******************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ReceberMateriais.action":
+/*!*************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ReceberMateriais.action ***!
+  \*************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"/EstoqueTransitorio/Pages/ConfirmacaoRecebimento.page","ModalPage":false,"Transition":{"0":"N","1":"o","2":"n","3":"e"}}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/ScanBarcode.action":
-/*!*************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/ScanBarcode.action ***!
-  \*************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ScanBarcode.action":
+/*!********************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/ScanBarcode.action ***!
+  \********************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.OpenBarcodeScanner","IsModal":true,"OnSuccess":"Rules/OnScanSuccess.js","OnFailure":"Rules/OnScanFail.js"}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/SomenteImprimir.action":
-/*!*****************************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/SomenteImprimir.action ***!
-  \*****************************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/SomenteImprimir.action":
+/*!************************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/SomenteImprimir.action ***!
+  \************************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ToastMessage","Message":"Impressão enviada para a fila.","Duration":3}
 
 /***/ }),
 
-/***/ "./build.definitions/EstoqueTransitorio/Actions/Voltar.action":
-/*!********************************************************************!*\
-  !*** ./build.definitions/EstoqueTransitorio/Actions/Voltar.action ***!
-  \********************************************************************/
+/***/ "./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Voltar.action":
+/*!***************************************************************************************!*\
+  !*** ./build.definitions/EstoqueTransitorio/EstoqueTransitorio/Actions/Voltar.action ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","PageToOpen":"Pages/Application/EscanearPacote.page","NavType":"Push"}

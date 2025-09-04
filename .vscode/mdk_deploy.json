@@ -1,9 +1,13 @@
 {
-	"Application": "/home/user/projects/project_deposito_transitorio/EstoqueTransitorio/Application.app",
+	"Application": "/home/user/projects/project_deposito_transitorio/Application.app",
 	"Target": "Your Dev Space",
 	"OtherApps": [
 		{
 			"Application": "/home/user/projects/project_deposito_transitorio/EstoqueTransitorio/Application.app",
+			"Target": "Your Dev Space"
+		},
+		{
+			"Application": "/home/user/projects/project_deposito_transitorio/Application.app",
 			"Target": "Your Dev Space"
 		}
 	]
